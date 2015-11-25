@@ -24,7 +24,7 @@ module.exports = function (app) {
   });
 
   app.get('/login', function(req, res) {
-      res.render('login', { user : req.user });
+      res.render('login', { user : req.user, message: req.flash('loginMessage') });
   });
 
   app.post('/login', passport.authenticate('local'), function(req, res) {

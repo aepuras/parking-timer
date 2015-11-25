@@ -22,15 +22,22 @@
   "author": "Michael Herman <michael@mherman.org>",
   "license": "MIT",
   "dependencies": {
-    "express": "~3.3.4",
-    "jade": "~0.34.1",
-    "passport": "~0.1.17",
-    "passport-local": "~0.1.6",
-    "mongoose": "~3.8.0",
-    "passport-local-mongoose": "~0.2.5",
-    "mocha": "~1.14.0",
-    "chai": "~1.8.1",
-    "should": "~2.1.0",
-    "bcrypt-nodejs": "0.0.3"
+    "bcrypt-nodejs": "*",
+    "body-parser": "^1.14.1",
+    "chai": "^3.4.1",
+    "cookie-parser": "^1.4.0",
+    "errorhandler": "^1.4.2",
+    "express": "^4.13.3",
+    "express-logger": "0.0.3",
+    "express-session": "^1.12.1",
+    "jade": "^1.11.0",
+    "method-override": "^2.3.5",
+    "mocha": "^2.3.4",
+    "mongoose": "^4.2.7",
+    "morgan": "^1.6.1",
+    "passport": "*",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^3.1.0",
+    "should": "^7.1.1"
   }
 }
